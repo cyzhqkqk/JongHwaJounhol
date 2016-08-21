@@ -11,11 +11,19 @@ public class Problem522 {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		
+		
 		if(a == b) {
+			
 			System.out.println(true);
 			
-		if(a != b) 
+		}else{ 
 			System.out.println(false);
 		}
+		
+		if(b != a) {
+			System.out.println(true);
+		}else{ 
+			System.out.println(false);
 	}
+}
 }

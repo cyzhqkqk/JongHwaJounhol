@@ -16,7 +16,10 @@ public class Problem520 {
 		
 		int a = sc.nextInt();
 		
-		System.out.println("후치" + a++);
-		System.out.println("전치" + ++a);
+		System.out.println("후치" + a); 
+		a++;
+		System.out.println(a);
+		//System.out.println(a);
+		//System.out.println("전치" + ++a);
 	}
 }
